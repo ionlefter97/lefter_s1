@@ -9,14 +9,12 @@ public class VampireNumbers {
         Vector vectorOfVampireNumbers = new Vector();
 
         for (int number = 1000; number < 120000; number++) {
-            int lengthOfNumber = String.valueOf(number).length();
+            String theNumber = String.valueOf(number);
+            int lengthOfNumber = theNumber.length();
+
+            //The number of digits must be even
             if (lengthOfNumber % 2 == 0) {
-                String theNumber = "";
-                int aux = number;
-                for (int i = 0; i < lengthOfNumber; i++) {
-                    theNumber += (aux % 10);
-                    aux = aux / 10;
-                }
+
                 Set set = getPermutation(theNumber);
                 for (Object getNumber : set) {
                     String string = (String) getNumber;

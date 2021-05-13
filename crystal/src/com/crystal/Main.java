@@ -59,23 +59,23 @@ public class Main {
         System.out.println(" *********     ***       *        *      ");
 
         //============ Exercise 7 ============
-        System.out.println("\n\n============ Exercise 7 ============\n");
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter a number for x1:");
-        double x1 = scanner.nextDouble();
-
-        System.out.println("Enter a number for x2:");
-        double x2 = scanner.nextDouble();
-
-        System.out.println("Enter a number for x3:");
-        double x3 = scanner.nextDouble();
-
-        CalculateStatistical calculateStatistical = new CalculateStatistical();
-
-        System.out.println("\nMean: " + calculateStatistical.calculateMean(x1, x2, x3));
-        System.out.println("Variance: " + calculateStatistical.calculateVariance(x1, x2, x3));
-        System.out.println("Standard deviation: " + calculateStatistical.calculateStandartDeviation(x1, x2, x3));
+//        System.out.println("\n\n============ Exercise 7 ============\n");
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Enter a number for x1:");
+//        double x1 = scanner.nextDouble();
+//
+//        System.out.println("Enter a number for x2:");
+//        double x2 = scanner.nextDouble();
+//
+//        System.out.println("Enter a number for x3:");
+//        double x3 = scanner.nextDouble();
+//
+//        CalculateStatistical calculateStatistical = new CalculateStatistical();
+//
+//        System.out.println("\nMean: " + calculateStatistical.calculateMean(x1, x2, x3));
+//        System.out.println("Variance: " + calculateStatistical.calculateVariance(x1, x2, x3));
+//        System.out.println("Standard deviation: " + calculateStatistical.calculateStandartDeviation(x1, x2, x3));
 
         //============ Exercise 8 ============
         System.out.println("\n\n============ Exercise 8 ============\n");
